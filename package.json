@@ -1,7 +1,7 @@
 {
   "name": "grpc-nest-proto",
   "version": "1.0.0",
-  "description": "",
+  "description": "proto definitions installer",
   "scripts": {
     "order": "./scripts/order.proto.sh",
     "auth": "./scripts/auth.proto.sh",
