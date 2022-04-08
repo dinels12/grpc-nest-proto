@@ -51,7 +51,8 @@ message DecreaseStockRequest {
 }
 
 message DecreaseStockResponse {
-    int32 status = 1;
-    repeated string error = 2;
+    string id = 1;
+    int32 status = 2;
+    repeated string error = 3;
 }
 
