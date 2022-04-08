@@ -2,7 +2,12 @@
   "name": "@denial/proto-deff",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "order": "./scripts/order.proto.sh",
+    "auth": "./scripts/auth.proto.sh",
+    "product": "./scripts/product.proto.sh",
+    "all": "./scripts/install.sh"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
