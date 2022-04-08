@@ -1,5 +1,5 @@
 {
-  "name": "@denial/proto-deff",
+  "name": "grpc-nest-proto",
   "version": "1.0.0",
   "description": "",
   "scripts": {
