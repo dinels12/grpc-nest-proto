@@ -20,13 +20,13 @@ message CreateProductRequest {
 message CreateProductResponse {
     int32 status = 1;
     repeated string error = 2;
-    string _id = 3;
+    string id = 3;
 }
 
 // FindOne 
 
 message FindOneData {
-    string _id = 1;
+    string id = 1;
     string name = 2;
     string sku = 3;
     int32 stock = 4;
@@ -34,7 +34,7 @@ message FindOneData {
 }
 
 message FindOneRequest  { 
-    string _id = 1;
+    string id = 1;
 }
 
 message FindOneResponse {
